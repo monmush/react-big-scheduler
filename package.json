@@ -1,6 +1,6 @@
 {
-  "name": "react-big-scheduler",
-  "version": "0.2.7",
+  "name": "pp-react-big-scheduler",
+  "version": "1.0.1",
   "description": "A scheduler and resource planning component built for React and made for modern browsers (IE10+)",
   "keywords": [
     "scheduler",
@@ -41,7 +41,7 @@
     "lint"
   ],
   "dependencies": {
-    "antd": "^3.16.6",
+    "antd": "^4.1.4",
     "cpy": "^3.4.1",
     "moment": "^2.24.0",
     "prop-types": "^15.7.2",
