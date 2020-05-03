@@ -1,6 +1,6 @@
 {
   "name": "pp-react-big-scheduler",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A scheduler and resource planning component built for React and made for modern browsers (IE10+)",
   "keywords": [
     "scheduler",
