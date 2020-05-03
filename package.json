@@ -41,6 +41,7 @@
     "lint"
   ],
   "dependencies": {
+    "@ant-design/icons": "^4.1.0",
     "antd": "^4.1.4",
     "cpy": "^3.4.1",
     "moment": "^2.24.0",

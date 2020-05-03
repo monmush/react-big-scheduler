@@ -49,6 +49,7 @@ import CellUnits from './CellUnits'
 import SummaryPos from './SummaryPos'
 import SchedulerData from './SchedulerData'
 import DemoData from './DemoData'
+import {LeftOutlined, RightOulined} from '@ant-design/icons'
 const RadioButton = Radio.Button;
 const RadioGroup = Radio.Group;
 
@@ -282,7 +283,7 @@ class Scheduler extends Component {
                     {leftCustomHeader}
                     <Col>
                         <div className='header2-text'>
-                            <Icon type="left" style={{marginRight: "8px"}} className="icon-nav"
+                            <LeftOutlined type="left" style={{marginRight: "8px"}} className="icon-nav"
                                     onClick={this.goBack}/>
                             {
                             calendarPopoverEnabled
@@ -294,7 +295,7 @@ class Scheduler extends Component {
                                 </Popover>
                                 : <span className={'header2-text-label'}>{dateLabel}</span>
                             }
-                            <Icon type="right" style={{marginLeft: "8px"}} className="icon-nav"
+                            <RightOulined type="right" style={{marginLeft: "8px"}} className="icon-nav"
                                     onClick={this.goNext}/>
                         </div>
                     </Col>
