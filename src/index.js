@@ -379,8 +379,8 @@ class Scheduler extends Component {
             <div className="header2-text">
               <DatePicker
                 picker="week"
-                onChange={this.onSelect}
                 format={"YYYY-MM-DD"}
+                onChange={this.onSelect}
               />
             </div>
           </Col>
